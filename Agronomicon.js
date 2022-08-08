@@ -1452,7 +1452,7 @@ var initialize = function() {
             }
             Agronomicon.oldUpdateMenu = Game.UpdateMenu;
             Game.UpdateMenu = UpdateMenuHook;
-            Game.customDraw.push(drawCallback);
+            Game.registerHook('draw'. drawCallback);
             if(localStorage) {
                 var str = localStorage.getItem('AcharvaksAgronomicon');
                 if(str) {

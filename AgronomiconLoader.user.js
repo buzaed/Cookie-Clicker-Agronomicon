@@ -19,7 +19,7 @@ window.eval("(" + (function() {
     var loadFunc = function() {
         var Game = window.Game;
         if(Game && Game.ready) {
-            Game.LoadMod('https://acharvak.github.io/Cookie-Clicker-Agronomicon/Agronomicon.js');
+            Game.LoadMod('https://vizzie-tx.github.io/Cookie-Clicker-Agronomicon/Agronomicon.js');
             return true;
         } else {
             return false;
